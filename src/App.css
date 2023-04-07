@@ -1,0 +1,72 @@
+
+.palito {
+  background-color: black;
+  height: 251px;
+  width: 15px;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+.trafficLight {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 350px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.redOn{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 80px yellow;
+}
+
+.yellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.yellowOn{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 80px yellow;
+}
+
+.green {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.greenOn{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 80px yellow;
+}
